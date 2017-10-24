@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="12121" systemVersion="16B2657" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="12121"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="LoginVC" customModule="WantTalk" customModuleProvider="target">
+            <connections>
+                <outlet property="passWordTF" destination="fOK-9v-6r0" id="yqA-7m-aUI"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+                <outlet property="workNumTF" destination="nBx-1X-Jzu" id="uaz-RB-icl"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="272"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="eK8-Rk-OLi" userLabel="工号 View">
+                    <rect key="frame" x="115" y="176" width="250" height="40"/>
+                    <subviews>
+                        <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ou6-aD-lTD" userLabel="头像 View">
+                            <rect key="frame" x="15" y="10" width="20" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20" id="aGd-GH-bpr"/>
+                                <constraint firstAttribute="width" constant="20" id="hQR-no-6JT"/>
+                            </constraints>
+                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="HZU-Ih-GQY"/>
+                        </imageView>
+                        <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nBx-1X-Jzu">
+                            <rect key="frame" x="45" y="0.0" width="205" height="40"/>
+                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" alignment="left" placeholderString="输入工号" drawsBackground="YES" id="735-kk-LI9">
+                                <font key="font" metaFont="system"/>
+                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </textField>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="nBx-1X-Jzu" firstAttribute="leading" secondItem="Ou6-aD-lTD" secondAttribute="trailing" constant="10" id="6Mz-Bo-0I3"/>
+                        <constraint firstAttribute="trailing" secondItem="nBx-1X-Jzu" secondAttribute="trailing" id="RSJ-3L-gFz"/>
+                        <constraint firstItem="nBx-1X-Jzu" firstAttribute="height" secondItem="eK8-Rk-OLi" secondAttribute="height" id="TkE-nA-kGF"/>
+                        <constraint firstItem="Ou6-aD-lTD" firstAttribute="leading" secondItem="eK8-Rk-OLi" secondAttribute="leading" constant="15" id="Tof-sy-ss4"/>
+                        <constraint firstAttribute="height" constant="40" id="h0a-G7-wgb"/>
+                        <constraint firstAttribute="width" constant="250" id="hay-sd-aXJ"/>
+                        <constraint firstItem="Ou6-aD-lTD" firstAttribute="centerY" secondItem="eK8-Rk-OLi" secondAttribute="centerY" id="meQ-cH-0K0"/>
+                        <constraint firstItem="nBx-1X-Jzu" firstAttribute="top" secondItem="eK8-Rk-OLi" secondAttribute="top" id="pfH-qe-YJh"/>
+                    </constraints>
+                </customView>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="Xav-IK-nqS" userLabel="密码 View">
+                    <rect key="frame" x="115" y="116" width="250" height="40"/>
+                    <subviews>
+                        <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OSh-E1-lTd" userLabel="头像 View">
+                            <rect key="frame" x="10" y="10" width="20" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="20" id="InB-lT-rsF"/>
+                                <constraint firstAttribute="height" constant="20" id="Li9-l2-JdE"/>
+                            </constraints>
+                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="E03-eb-ZI2"/>
+                        </imageView>
+                        <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fOK-9v-6r0">
+                            <rect key="frame" x="40" y="0.0" width="210" height="40"/>
+                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" alignment="left" placeholderString="输入密码" drawsBackground="YES" id="9gS-d4-kyE">
+                                <font key="font" metaFont="system"/>
+                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </textField>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="0G6-D6-DEG"/>
+                        <constraint firstItem="fOK-9v-6r0" firstAttribute="leading" secondItem="OSh-E1-lTd" secondAttribute="trailing" constant="10" id="6wr-Yw-gVe"/>
+                        <constraint firstItem="fOK-9v-6r0" firstAttribute="height" secondItem="Xav-IK-nqS" secondAttribute="height" id="Fw9-91-4OF"/>
+                        <constraint firstAttribute="trailing" secondItem="fOK-9v-6r0" secondAttribute="trailing" id="G3U-vR-iLd"/>
+                        <constraint firstItem="fOK-9v-6r0" firstAttribute="top" secondItem="Xav-IK-nqS" secondAttribute="top" id="HvR-KP-zcB"/>
+                        <constraint firstItem="OSh-E1-lTd" firstAttribute="leading" secondItem="Xav-IK-nqS" secondAttribute="leading" constant="10" id="xOQ-ME-2Rz"/>
+                        <constraint firstItem="OSh-E1-lTd" firstAttribute="centerY" secondItem="Xav-IK-nqS" secondAttribute="centerY" id="xu0-Jg-lLk"/>
+                        <constraint firstAttribute="width" constant="250" id="zzf-Ev-E9N"/>
+                    </constraints>
+                </customView>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="iEH-ji-HaE">
+                    <rect key="frame" x="140" y="35" width="200" height="31"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="6aB-Ow-ZYr"/>
+                        <constraint firstAttribute="height" constant="30" id="Zyy-17-zp3"/>
+                    </constraints>
+                    <buttonCell key="cell" type="inline" title="登陆" bezelStyle="inline" imagePosition="left" alignment="center" state="on" borderStyle="border" inset="2" id="pJ4-wW-UhE">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="smallSystemBold"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="onClickLoginBtn:" target="-2" id="cOK-vu-bQX"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="Xav-IK-nqS" firstAttribute="height" secondItem="eK8-Rk-OLi" secondAttribute="height" id="2zz-LY-5pd"/>
+                <constraint firstItem="Xav-IK-nqS" firstAttribute="width" secondItem="eK8-Rk-OLi" secondAttribute="width" id="8jz-SA-PPe"/>
+                <constraint firstItem="Xav-IK-nqS" firstAttribute="centerY" secondItem="Hz6-mo-xeY" secondAttribute="centerY" id="ACq-hD-cMy"/>
+                <constraint firstItem="Xav-IK-nqS" firstAttribute="top" secondItem="eK8-Rk-OLi" secondAttribute="bottom" constant="20" id="Dok-X7-TU8"/>
+                <constraint firstItem="eK8-Rk-OLi" firstAttribute="centerX" secondItem="Hz6-mo-xeY" secondAttribute="centerX" id="Wl7-eA-zKj"/>
+                <constraint firstItem="iEH-ji-HaE" firstAttribute="centerX" secondItem="Xav-IK-nqS" secondAttribute="centerX" id="kO0-eg-wIa"/>
+                <constraint firstItem="Xav-IK-nqS" firstAttribute="centerX" secondItem="eK8-Rk-OLi" secondAttribute="centerX" id="nfk-OG-shb"/>
+                <constraint firstItem="iEH-ji-HaE" firstAttribute="top" secondItem="Xav-IK-nqS" secondAttribute="bottom" constant="50" id="p6y-rw-bIK"/>
+            </constraints>
+        </customView>
+    </objects>
+</document>

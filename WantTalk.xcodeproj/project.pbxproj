@@ -7,12 +7,93 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E0303771F9742280077B103 /* ChatDetailVC+interaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0303761F9742280077B103 /* ChatDetailVC+interaction.swift */; };
+		7E0303791F97447D0077B103 /* ChatDetailVC+handleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0303781F97447D0077B103 /* ChatDetailVC+handleData.swift */; };
+		7E03037B1F9854BD0077B103 /* NSTableView+addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E03037A1F9854BD0077B103 /* NSTableView+addition.swift */; };
+		7E03037D1F998B2E0077B103 /* UIImage+TSOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E03037C1F998B2E0077B103 /* UIImage+TSOrientation.swift */; };
+		7E03037F1F99A1ED0077B103 /* IMImageCompress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E03037E1F99A1ED0077B103 /* IMImageCompress.swift */; };
+		7E113F231F94976900059C9C /* GroupChatDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E113F211F94976900059C9C /* GroupChatDetailVC.swift */; };
+		7E113F241F94976900059C9C /* GroupChatDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E113F221F94976900059C9C /* GroupChatDetailVC.xib */; };
+		7E113F291F95AB7600059C9C /* ChatTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E113F271F95AB7600059C9C /* ChatTextCell.swift */; };
+		7E113F2A1F95AB7600059C9C /* ChatTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E113F281F95AB7600059C9C /* ChatTextCell.xib */; };
+		7E113F2D1F95C6CF00059C9C /* ChatImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E113F2B1F95C6CF00059C9C /* ChatImageCell.swift */; };
+		7E113F2E1F95C6CF00059C9C /* ChatImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E113F2C1F95C6CF00059C9C /* ChatImageCell.xib */; };
+		7E113F311F95C6E500059C9C /* ChatFileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E113F2F1F95C6E500059C9C /* ChatFileCell.swift */; };
+		7E113F321F95C6E500059C9C /* ChatFileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E113F301F95C6E500059C9C /* ChatFileCell.xib */; };
+		7E7E9FE71F7BABB3000D9328 /* NSObject+TSExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7E9FE61F7BABB3000D9328 /* NSObject+TSExtension.swift */; };
+		7E7E9FF41F7BAF3F000D9328 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7E9FF31F7BAF3F000D9328 /* Constants.swift */; };
+		7E7E9FF71F7C8B86000D9328 /* NSImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7E9FF61F7C8B86000D9328 /* NSImage+Extension.swift */; };
+		7E7E9FFA1F7C8E65000D9328 /* macUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7E9FF91F7C8E65000D9328 /* macUUID.m */; };
+		7E7EA0781F7CA810000D9328 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7EA0761F7CA810000D9328 /* LoginVC.swift */; };
+		7E7EA0791F7CA810000D9328 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E7EA0771F7CA810000D9328 /* LoginVC.xib */; };
+		7E7EA07C1F7DE903000D9328 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E7EA07B1F7DE903000D9328 /* Main.storyboard */; };
+		7E7EA0821F7F7538000D9328 /* MianVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7EA0801F7F7538000D9328 /* MianVC.swift */; };
+		7E7EA0831F7F7538000D9328 /* MianVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E7EA0811F7F7538000D9328 /* MianVC.xib */; };
+		7EAD12F91F9DB79800E30263 /* libchilkatCocoa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EAD12F71F9DB79800E30263 /* libchilkatCocoa.a */; settings = {ATTRIBUTES = (Required, ); }; };
 		7EBAB55E1F7B4B170029B217 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB55D1F7B4B170029B217 /* AppDelegate.swift */; };
-		7EBAB5601F7B4B170029B217 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB55F1F7B4B170029B217 /* ViewController.swift */; };
 		7EBAB5621F7B4B170029B217 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EBAB5611F7B4B170029B217 /* Assets.xcassets */; };
-		7EBAB5651F7B4B170029B217 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EBAB5631F7B4B170029B217 /* Main.storyboard */; };
 		7EBAB5701F7B4B170029B217 /* WantTalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB56F1F7B4B170029B217 /* WantTalkTests.swift */; };
-		7EBAB57B1F7B4B170029B217 /* WantTalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB57A1F7B4B170029B217 /* WantTalkUITests.swift */; };
+		7EBAB8891F7B8EE00029B217 /* CGRect+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB5961F7B8EDE0029B217 /* CGRect+Extension.swift */; };
+		7EBAB88A1F7B8EE00029B217 /* DDXMLElement+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB5971F7B8EDE0029B217 /* DDXMLElement+Extension.swift */; };
+		7EBAB88B1F7B8EE00029B217 /* ChatConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB5991F7B8EDE0029B217 /* ChatConfig.swift */; };
+		7EBAB88C1F7B8EE00029B217 /* ImageFilesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB59A1F7B8EDE0029B217 /* ImageFilesManager.swift */; };
+		7EBAB88F1F7B8EE00029B217 /* String+TSCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB59D1F7B8EDE0029B217 /* String+TSCrypto.swift */; };
+		7EBAB8A01F7B8EE00029B217 /* IMConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB5AE1F7B8EDE0029B217 /* IMConfig.swift */; };
+		7EBAB8A11F7B8EE00029B217 /* IMEmojiDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB5AF1F7B8EDE0029B217 /* IMEmojiDictionary.swift */; };
+		7EBAB8A41F7B8EE00029B217 /* NSObject+addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB5B21F7B8EDE0029B217 /* NSObject+addition.swift */; };
+		7EBAB8A61F7B8EE00029B217 /* String+addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB5B41F7B8EDE0029B217 /* String+addition.swift */; };
+		7EBAB8A71F7B8EE00029B217 /* SwiftTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB5B51F7B8EDE0029B217 /* SwiftTimer.swift */; };
+		7EBAB8BB1F7B8EE00029B217 /* IMFriendsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB5CA1F7B8EDE0029B217 /* IMFriendsManager.swift */; };
+		7EBAB8BC1F7B8EE00029B217 /* IMGlobaHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB5CB1F7B8EDE0029B217 /* IMGlobaHelper.swift */; };
+		7EBAB8BD1F7B8EE00029B217 /* IMMessageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB5CC1F7B8EDE0029B217 /* IMMessageManager.swift */; };
+		7EBAB8BE1F7B8EE00029B217 /* IMObjectManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB5CD1F7B8EDE0029B217 /* IMObjectManager.swift */; };
+		7EBAB8BF1F7B8EE00029B217 /* IMRealmUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB5CE1F7B8EDE0029B217 /* IMRealmUtil.swift */; };
+		7EBAB8C01F7B8EE00029B217 /* IMRxManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB5CF1F7B8EDE0029B217 /* IMRxManager.swift */; };
+		7EBAB8C11F7B8EE00029B217 /* IMSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB5D01F7B8EDE0029B217 /* IMSessionManager.swift */; };
+		7EBAB8C21F7B8EE00029B217 /* IMTokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB5D11F7B8EDE0029B217 /* IMTokenManager.swift */; };
+		7EBAB8C31F7B8EE00029B217 /* IMUpLoadFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB5D21F7B8EDE0029B217 /* IMUpLoadFileManager.swift */; };
+		7EBAB8C41F7B8EE00029B217 /* IMXCGLoggerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB5D31F7B8EDE0029B217 /* IMXCGLoggerManager.swift */; };
+		7EBAB8C51F7B8EE00029B217 /* IMXMPPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB5D41F7B8EDE0029B217 /* IMXMPPManager.swift */; };
+		7EBAB8C61F7B8EE00029B217 /* IMZipManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB5D51F7B8EDE0029B217 /* IMZipManager.swift */; };
+		7EBAB8C71F7B8EE00029B217 /* IMAddGroupChatSelectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB5D71F7B8EDE0029B217 /* IMAddGroupChatSelectModel.swift */; };
+		7EBAB8C81F7B8EE00029B217 /* IMChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB5D81F7B8EDE0029B217 /* IMChat.swift */; };
+		7EBAB8C91F7B8EE00029B217 /* IMChatImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB5D91F7B8EDE0029B217 /* IMChatImageModel.swift */; };
+		7EBAB8CA1F7B8EE00029B217 /* IMChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB5DA1F7B8EDE0029B217 /* IMChatModel.swift */; };
+		7EBAB8CB1F7B8EE00029B217 /* IMFriend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB5DB1F7B8EDE0029B217 /* IMFriend.swift */; };
+		7EBAB8CC1F7B8EE00029B217 /* IMFriend2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB5DC1F7B8EDE0029B217 /* IMFriend2.swift */; };
+		7EBAB8CD1F7B8EE00029B217 /* IMFriendDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB5DD1F7B8EDE0029B217 /* IMFriendDetail.swift */; };
+		7EBAB8CE1F7B8EE00029B217 /* IMFriendStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB5DE1F7B8EDE0029B217 /* IMFriendStatus.swift */; };
+		7EBAB8CF1F7B8EE00029B217 /* IMGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB5DF1F7B8EDE0029B217 /* IMGroup.swift */; };
+		7EBAB8D01F7B8EE00029B217 /* IMGroup2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB5E01F7B8EDE0029B217 /* IMGroup2.swift */; };
+		7EBAB8D11F7B8EE00029B217 /* IMGroupList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB5E11F7B8EDE0029B217 /* IMGroupList.swift */; };
+		7EBAB8D21F7B8EE00029B217 /* IMMessageList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB5E21F7B8EDE0029B217 /* IMMessageList.swift */; };
+		7EBAB8D31F7B8EE00029B217 /* IMMessageList2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB5E31F7B8EDE0029B217 /* IMMessageList2.swift */; };
+		7EBAB8D41F7B8EE00029B217 /* IMModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB5E41F7B8EDE0029B217 /* IMModel.swift */; };
+		7EBAB8D51F7B8EE00029B217 /* IMOidModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB5E51F7B8EDE0029B217 /* IMOidModel.swift */; };
+		7EBAB8D61F7B8EE00029B217 /* IMOrgnization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB5E61F7B8EDE0029B217 /* IMOrgnization.swift */; };
+		7EBAB8D71F7B8EE00029B217 /* IMRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB5E71F7B8EDE0029B217 /* IMRoom.swift */; };
+		7EBAB8D81F7B8EE00029B217 /* IMRoomStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB5E81F7B8EDE0029B217 /* IMRoomStatus.swift */; };
+		7EBAB8D91F7B8EE00029B217 /* IMUserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB5E91F7B8EDE0029B217 /* IMUserProfile.swift */; };
+		7EBAB8DA1F7B8EE00029B217 /* IMVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB5EA1F7B8EDE0029B217 /* IMVersion.swift */; };
+		7EBAB8DB1F7B8EE00029B217 /* AESHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB5EE1F7B8EDE0029B217 /* AESHelper.m */; };
+		7EBAB8DC1F7B8EE00029B217 /* BMChineseSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB5F01F7B8EDE0029B217 /* BMChineseSort.m */; };
+		7EBAB8DD1F7B8EE00029B217 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB5F21F7B8EDE0029B217 /* GTMBase64.m */; };
+		7EBAB8EB1F7B8EE00029B217 /* KeychainConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB6821F7B8EDF0029B217 /* KeychainConfiguration.swift */; };
+		7EBAB8EC1F7B8EE00029B217 /* KeychainPasswordItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBAB6831F7B8EDF0029B217 /* KeychainPasswordItem.swift */; };
+		7EBABA1F1F7B93AD0029B217 /* IMXMPPManager+addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBABA1E1F7B93AD0029B217 /* IMXMPPManager+addition.swift */; };
+		7ED0AC901F8C730900CE71D1 /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED0AC8E1F8C730900CE71D1 /* MainCell.swift */; };
+		7ED0AC931F8C969E00CE71D1 /* NSTextFilad+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED0AC921F8C969E00CE71D1 /* NSTextFilad+Extension.swift */; };
+		7ED0AC951F8CB10A00CE71D1 /* NSColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED0AC941F8CB10A00CE71D1 /* NSColor+Extension.swift */; };
+		7ED0AEE91F8DF2FA00CE71D1 /* MainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7ED0AEE81F8DF2FA00CE71D1 /* MainCell.xib */; };
+		7ED0AEF11F8F5A6C00CE71D1 /* MianSplitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED0AEEF1F8F5A6C00CE71D1 /* MianSplitVC.swift */; };
+		7ED0AEF21F8F5A6C00CE71D1 /* MianSplitVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7ED0AEF01F8F5A6C00CE71D1 /* MianSplitVC.xib */; };
+		7ED0AEF51F8F5BE600CE71D1 /* LeftMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED0AEF31F8F5BE600CE71D1 /* LeftMenuVC.swift */; };
+		7ED0AEF61F8F5BE600CE71D1 /* LeftMenuVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7ED0AEF41F8F5BE600CE71D1 /* LeftMenuVC.xib */; };
+		7ED0AEF91F8F600900CE71D1 /* CentreMsgListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED0AEF71F8F600900CE71D1 /* CentreMsgListVC.swift */; };
+		7ED0AEFA1F8F600900CE71D1 /* CentreMsgListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7ED0AEF81F8F600900CE71D1 /* CentreMsgListVC.xib */; };
+		7ED0AEFD1F8F604B00CE71D1 /* RightChatDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED0AEFB1F8F604B00CE71D1 /* RightChatDetailVC.swift */; };
+		7ED0AEFE1F8F604B00CE71D1 /* RightChatDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7ED0AEFC1F8F604B00CE71D1 /* RightChatDetailVC.xib */; };
+		A459BB99A8E5BCAC887AC2E2 /* Pods_WantTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15ED0662706DE4643A2CAF43 /* Pods_WantTalk.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,18 +114,211 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15ED0662706DE4643A2CAF43 /* Pods_WantTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WantTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E98CCADB3C3C1A69C7197FE /* Pods-WantTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WantTalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WantTalk/Pods-WantTalk.debug.xcconfig"; sourceTree = "<group>"; };
+		7E0303761F9742280077B103 /* ChatDetailVC+interaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ChatDetailVC+interaction.swift"; sourceTree = "<group>"; };
+		7E0303781F97447D0077B103 /* ChatDetailVC+handleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ChatDetailVC+handleData.swift"; sourceTree = "<group>"; };
+		7E03037A1F9854BD0077B103 /* NSTableView+addition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSTableView+addition.swift"; sourceTree = "<group>"; };
+		7E03037C1F998B2E0077B103 /* UIImage+TSOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+TSOrientation.swift"; sourceTree = "<group>"; };
+		7E03037E1F99A1ED0077B103 /* IMImageCompress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMImageCompress.swift; sourceTree = "<group>"; };
+		7E113F211F94976900059C9C /* GroupChatDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupChatDetailVC.swift; sourceTree = "<group>"; };
+		7E113F221F94976900059C9C /* GroupChatDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupChatDetailVC.xib; sourceTree = "<group>"; };
+		7E113F271F95AB7600059C9C /* ChatTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTextCell.swift; sourceTree = "<group>"; };
+		7E113F281F95AB7600059C9C /* ChatTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatTextCell.xib; sourceTree = "<group>"; };
+		7E113F2B1F95C6CF00059C9C /* ChatImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatImageCell.swift; sourceTree = "<group>"; };
+		7E113F2C1F95C6CF00059C9C /* ChatImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatImageCell.xib; sourceTree = "<group>"; };
+		7E113F2F1F95C6E500059C9C /* ChatFileCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatFileCell.swift; sourceTree = "<group>"; };
+		7E113F301F95C6E500059C9C /* ChatFileCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatFileCell.xib; sourceTree = "<group>"; };
+		7E7E9FE61F7BABB3000D9328 /* NSObject+TSExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+TSExtension.swift"; sourceTree = "<group>"; };
+		7E7E9FF31F7BAF3F000D9328 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7E7E9FF61F7C8B86000D9328 /* NSImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSImage+Extension.swift"; sourceTree = "<group>"; };
+		7E7E9FF81F7C8E65000D9328 /* macUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = macUUID.h; sourceTree = "<group>"; };
+		7E7E9FF91F7C8E65000D9328 /* macUUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = macUUID.m; sourceTree = "<group>"; };
+		7E7EA0761F7CA810000D9328 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		7E7EA0771F7CA810000D9328 /* LoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		7E7EA07B1F7DE903000D9328 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7E7EA0801F7F7538000D9328 /* MianVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MianVC.swift; sourceTree = "<group>"; };
+		7E7EA0811F7F7538000D9328 /* MianVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MianVC.xib; sourceTree = "<group>"; };
+		7EAD128F1F9DB79700E30263 /* CkoAccounts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoAccounts.h; sourceTree = "<group>"; };
+		7EAD12901F9DB79700E30263 /* CkoAsn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoAsn.h; sourceTree = "<group>"; };
+		7EAD12911F9DB79700E30263 /* CkoAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoAtom.h; sourceTree = "<group>"; };
+		7EAD12921F9DB79700E30263 /* CkoAuthAws.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoAuthAws.h; sourceTree = "<group>"; };
+		7EAD12931F9DB79700E30263 /* CkoAuthAzureAD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoAuthAzureAD.h; sourceTree = "<group>"; };
+		7EAD12941F9DB79700E30263 /* CkoAuthAzureSAS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoAuthAzureSAS.h; sourceTree = "<group>"; };
+		7EAD12951F9DB79700E30263 /* CkoAuthAzureStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoAuthAzureStorage.h; sourceTree = "<group>"; };
+		7EAD12961F9DB79700E30263 /* CkoAuthFacebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoAuthFacebook.h; sourceTree = "<group>"; };
+		7EAD12971F9DB79700E30263 /* CkoAuthGoogle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoAuthGoogle.h; sourceTree = "<group>"; };
+		7EAD12981F9DB79700E30263 /* CkoAuthUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoAuthUtil.h; sourceTree = "<group>"; };
+		7EAD12991F9DB79700E30263 /* CkoBaseProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoBaseProgress.h; sourceTree = "<group>"; };
+		7EAD129A1F9DB79700E30263 /* CkoBinData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoBinData.h; sourceTree = "<group>"; };
+		7EAD129B1F9DB79700E30263 /* CkoBounce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoBounce.h; sourceTree = "<group>"; };
+		7EAD129C1F9DB79700E30263 /* CkoBz2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoBz2.h; sourceTree = "<group>"; };
+		7EAD129D1F9DB79700E30263 /* CkoCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoCache.h; sourceTree = "<group>"; };
+		7EAD129E1F9DB79700E30263 /* CkoCert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoCert.h; sourceTree = "<group>"; };
+		7EAD129F1F9DB79700E30263 /* CkoCertChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoCertChain.h; sourceTree = "<group>"; };
+		7EAD12A01F9DB79700E30263 /* CkoCertStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoCertStore.h; sourceTree = "<group>"; };
+		7EAD12A11F9DB79700E30263 /* CkoCgi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoCgi.h; sourceTree = "<group>"; };
+		7EAD12A21F9DB79700E30263 /* CkoCharset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoCharset.h; sourceTree = "<group>"; };
+		7EAD12A31F9DB79700E30263 /* CkoCompression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoCompression.h; sourceTree = "<group>"; };
+		7EAD12A41F9DB79700E30263 /* CkoCrypt2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoCrypt2.h; sourceTree = "<group>"; };
+		7EAD12A51F9DB79700E30263 /* CkoCsr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoCsr.h; sourceTree = "<group>"; };
+		7EAD12A61F9DB79700E30263 /* CkoCsv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoCsv.h; sourceTree = "<group>"; };
+		7EAD12A71F9DB79700E30263 /* CkoDateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoDateTime.h; sourceTree = "<group>"; };
+		7EAD12A81F9DB79700E30263 /* CkoDh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoDh.h; sourceTree = "<group>"; };
+		7EAD12A91F9DB79700E30263 /* CkoDirTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoDirTree.h; sourceTree = "<group>"; };
+		7EAD12AA1F9DB79700E30263 /* CkoDkim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoDkim.h; sourceTree = "<group>"; };
+		7EAD12AB1F9DB79700E30263 /* CkoDsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoDsa.h; sourceTree = "<group>"; };
+		7EAD12AC1F9DB79700E30263 /* CkoDtObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoDtObj.h; sourceTree = "<group>"; };
+		7EAD12AD1F9DB79700E30263 /* CkoEcc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoEcc.h; sourceTree = "<group>"; };
+		7EAD12AE1F9DB79700E30263 /* CkoEmail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoEmail.h; sourceTree = "<group>"; };
+		7EAD12AF1F9DB79700E30263 /* CkoEmailBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoEmailBundle.h; sourceTree = "<group>"; };
+		7EAD12B01F9DB79700E30263 /* CkoFileAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoFileAccess.h; sourceTree = "<group>"; };
+		7EAD12B11F9DB79700E30263 /* CkoFtp2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoFtp2.h; sourceTree = "<group>"; };
+		7EAD12B21F9DB79700E30263 /* CkoFtp2Progress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoFtp2Progress.h; sourceTree = "<group>"; };
+		7EAD12B31F9DB79700E30263 /* CkoGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoGlobal.h; sourceTree = "<group>"; };
+		7EAD12B41F9DB79700E30263 /* CkoGzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoGzip.h; sourceTree = "<group>"; };
+		7EAD12B51F9DB79700E30263 /* CkoHashtable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoHashtable.h; sourceTree = "<group>"; };
+		7EAD12B61F9DB79700E30263 /* CkoHtmlToText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoHtmlToText.h; sourceTree = "<group>"; };
+		7EAD12B71F9DB79700E30263 /* CkoHtmlToXml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoHtmlToXml.h; sourceTree = "<group>"; };
+		7EAD12B81F9DB79700E30263 /* CkoHttp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoHttp.h; sourceTree = "<group>"; };
+		7EAD12B91F9DB79700E30263 /* CkoHttpProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoHttpProgress.h; sourceTree = "<group>"; };
+		7EAD12BA1F9DB79700E30263 /* CkoHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoHttpRequest.h; sourceTree = "<group>"; };
+		7EAD12BB1F9DB79700E30263 /* CkoHttpResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoHttpResponse.h; sourceTree = "<group>"; };
+		7EAD12BC1F9DB79700E30263 /* CkoImap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoImap.h; sourceTree = "<group>"; };
+		7EAD12BD1F9DB79700E30263 /* CkoJavaKeyStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoJavaKeyStore.h; sourceTree = "<group>"; };
+		7EAD12BE1F9DB79700E30263 /* CkoJsonArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoJsonArray.h; sourceTree = "<group>"; };
+		7EAD12BF1F9DB79700E30263 /* CkoJsonObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoJsonObject.h; sourceTree = "<group>"; };
+		7EAD12C01F9DB79700E30263 /* CkoJwe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoJwe.h; sourceTree = "<group>"; };
+		7EAD12C11F9DB79700E30263 /* CkoJws.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoJws.h; sourceTree = "<group>"; };
+		7EAD12C21F9DB79700E30263 /* CkoJwt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoJwt.h; sourceTree = "<group>"; };
+		7EAD12C31F9DB79700E30263 /* CkoLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoLog.h; sourceTree = "<group>"; };
+		7EAD12C41F9DB79700E30263 /* CkoMailboxes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoMailboxes.h; sourceTree = "<group>"; };
+		7EAD12C51F9DB79700E30263 /* CkoMailMan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoMailMan.h; sourceTree = "<group>"; };
+		7EAD12C61F9DB79700E30263 /* CkoMailManProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoMailManProgress.h; sourceTree = "<group>"; };
+		7EAD12C71F9DB79700E30263 /* CkoMessageSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoMessageSet.h; sourceTree = "<group>"; };
+		7EAD12C81F9DB79700E30263 /* CkoMht.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoMht.h; sourceTree = "<group>"; };
+		7EAD12C91F9DB79700E30263 /* CkoMime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoMime.h; sourceTree = "<group>"; };
+		7EAD12CA1F9DB79700E30263 /* CkoNtlm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoNtlm.h; sourceTree = "<group>"; };
+		7EAD12CB1F9DB79700E30263 /* CkoOAuth1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoOAuth1.h; sourceTree = "<group>"; };
+		7EAD12CC1F9DB79700E30263 /* CkoOAuth2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoOAuth2.h; sourceTree = "<group>"; };
+		7EAD12CD1F9DB79700E30263 /* CkoPem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoPem.h; sourceTree = "<group>"; };
+		7EAD12CE1F9DB79700E30263 /* CkoPfx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoPfx.h; sourceTree = "<group>"; };
+		7EAD12CF1F9DB79700E30263 /* CkoPrivateKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoPrivateKey.h; sourceTree = "<group>"; };
+		7EAD12D01F9DB79700E30263 /* CkoPrng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoPrng.h; sourceTree = "<group>"; };
+		7EAD12D11F9DB79700E30263 /* CkoProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoProgress.h; sourceTree = "<group>"; };
+		7EAD12D21F9DB79700E30263 /* CkoPublicKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoPublicKey.h; sourceTree = "<group>"; };
+		7EAD12D31F9DB79700E30263 /* CkoRest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoRest.h; sourceTree = "<group>"; };
+		7EAD12D41F9DB79700E30263 /* CkoRsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoRsa.h; sourceTree = "<group>"; };
+		7EAD12D51F9DB79700E30263 /* CkoRss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoRss.h; sourceTree = "<group>"; };
+		7EAD12D61F9DB79700E30263 /* CkoScp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoScp.h; sourceTree = "<group>"; };
+		7EAD12D71F9DB79700E30263 /* CkoServerSentEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoServerSentEvent.h; sourceTree = "<group>"; };
+		7EAD12D81F9DB79700E30263 /* CkoSFtp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoSFtp.h; sourceTree = "<group>"; };
+		7EAD12D91F9DB79700E30263 /* CkoSFtpDir.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoSFtpDir.h; sourceTree = "<group>"; };
+		7EAD12DA1F9DB79700E30263 /* CkoSFtpFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoSFtpFile.h; sourceTree = "<group>"; };
+		7EAD12DB1F9DB79700E30263 /* CkoSFtpProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoSFtpProgress.h; sourceTree = "<group>"; };
+		7EAD12DC1F9DB79700E30263 /* CkoSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoSocket.h; sourceTree = "<group>"; };
+		7EAD12DD1F9DB79700E30263 /* CkoSpider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoSpider.h; sourceTree = "<group>"; };
+		7EAD12DE1F9DB79700E30263 /* CkoSsh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoSsh.h; sourceTree = "<group>"; };
+		7EAD12DF1F9DB79700E30263 /* CkoSshKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoSshKey.h; sourceTree = "<group>"; };
+		7EAD12E01F9DB79700E30263 /* CkoSshTunnel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoSshTunnel.h; sourceTree = "<group>"; };
+		7EAD12E11F9DB79700E30263 /* CkoStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoStream.h; sourceTree = "<group>"; };
+		7EAD12E21F9DB79700E30263 /* CkoStringArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoStringArray.h; sourceTree = "<group>"; };
+		7EAD12E31F9DB79700E30263 /* CkoStringBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoStringBuilder.h; sourceTree = "<group>"; };
+		7EAD12E41F9DB79700E30263 /* CkoStringTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoStringTable.h; sourceTree = "<group>"; };
+		7EAD12E51F9DB79700E30263 /* CkoTar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoTar.h; sourceTree = "<group>"; };
+		7EAD12E61F9DB79700E30263 /* CkoTarProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoTarProgress.h; sourceTree = "<group>"; };
+		7EAD12E71F9DB79700E30263 /* CkoTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoTask.h; sourceTree = "<group>"; };
+		7EAD12E81F9DB79700E30263 /* CkoTaskChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoTaskChain.h; sourceTree = "<group>"; };
+		7EAD12E91F9DB79700E30263 /* CkoTrustedRoots.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoTrustedRoots.h; sourceTree = "<group>"; };
+		7EAD12EA1F9DB79800E30263 /* CkoUnixCompress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoUnixCompress.h; sourceTree = "<group>"; };
+		7EAD12EB1F9DB79800E30263 /* CkoUpload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoUpload.h; sourceTree = "<group>"; };
+		7EAD12EC1F9DB79800E30263 /* CkoUrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoUrl.h; sourceTree = "<group>"; };
+		7EAD12ED1F9DB79800E30263 /* CkoXml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoXml.h; sourceTree = "<group>"; };
+		7EAD12EE1F9DB79800E30263 /* CkoXmlCertVault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoXmlCertVault.h; sourceTree = "<group>"; };
+		7EAD12EF1F9DB79800E30263 /* CkoXmlDSig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoXmlDSig.h; sourceTree = "<group>"; };
+		7EAD12F01F9DB79800E30263 /* CkoXmlDSigGen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoXmlDSigGen.h; sourceTree = "<group>"; };
+		7EAD12F11F9DB79800E30263 /* CkoXmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoXmp.h; sourceTree = "<group>"; };
+		7EAD12F21F9DB79800E30263 /* CkoZip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoZip.h; sourceTree = "<group>"; };
+		7EAD12F31F9DB79800E30263 /* CkoZipCrc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoZipCrc.h; sourceTree = "<group>"; };
+		7EAD12F41F9DB79800E30263 /* CkoZipEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoZipEntry.h; sourceTree = "<group>"; };
+		7EAD12F51F9DB79800E30263 /* CkoZipProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CkoZipProgress.h; sourceTree = "<group>"; };
+		7EAD12F71F9DB79800E30263 /* libchilkatCocoa.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libchilkatCocoa.a; sourceTree = "<group>"; };
+		7EAD12F81F9DB79800E30263 /* libchilkatCocoaDyn.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libchilkatCocoaDyn.dylib; sourceTree = "<group>"; };
 		7EBAB55A1F7B4B170029B217 /* WantTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WantTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7EBAB55D1F7B4B170029B217 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7EBAB55F1F7B4B170029B217 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7EBAB5611F7B4B170029B217 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7EBAB5641F7B4B170029B217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7EBAB5661F7B4B170029B217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EBAB55D1F7B4B170029B217 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		7EBAB5611F7B4B170029B217 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		7EBAB5661F7B4B170029B217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		7EBAB56B1F7B4B170029B217 /* WantTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WantTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EBAB56F1F7B4B170029B217 /* WantTalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WantTalkTests.swift; sourceTree = "<group>"; };
 		7EBAB5711F7B4B170029B217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EBAB5761F7B4B170029B217 /* WantTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WantTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7EBAB57A1F7B4B170029B217 /* WantTalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WantTalkUITests.swift; sourceTree = "<group>"; };
-		7EBAB57C1F7B4B170029B217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EBAB5901F7B778F0029B217 /* WantTalk-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WantTalk-Bridging-Header.h"; sourceTree = "<group>"; };
+		7EBAB5961F7B8EDE0029B217 /* CGRect+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Extension.swift"; sourceTree = "<group>"; };
+		7EBAB5971F7B8EDE0029B217 /* DDXMLElement+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DDXMLElement+Extension.swift"; sourceTree = "<group>"; };
+		7EBAB5991F7B8EDE0029B217 /* ChatConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatConfig.swift; sourceTree = "<group>"; };
+		7EBAB59A1F7B8EDE0029B217 /* ImageFilesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFilesManager.swift; sourceTree = "<group>"; };
+		7EBAB59D1F7B8EDE0029B217 /* String+TSCrypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+TSCrypto.swift"; sourceTree = "<group>"; };
+		7EBAB5AE1F7B8EDE0029B217 /* IMConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMConfig.swift; sourceTree = "<group>"; };
+		7EBAB5AF1F7B8EDE0029B217 /* IMEmojiDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMEmojiDictionary.swift; sourceTree = "<group>"; };
+		7EBAB5B21F7B8EDE0029B217 /* NSObject+addition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+addition.swift"; sourceTree = "<group>"; };
+		7EBAB5B41F7B8EDE0029B217 /* String+addition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+addition.swift"; sourceTree = "<group>"; };
+		7EBAB5B51F7B8EDE0029B217 /* SwiftTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftTimer.swift; sourceTree = "<group>"; };
+		7EBAB5CA1F7B8EDE0029B217 /* IMFriendsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMFriendsManager.swift; sourceTree = "<group>"; };
+		7EBAB5CB1F7B8EDE0029B217 /* IMGlobaHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMGlobaHelper.swift; sourceTree = "<group>"; };
+		7EBAB5CC1F7B8EDE0029B217 /* IMMessageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMMessageManager.swift; sourceTree = "<group>"; };
+		7EBAB5CD1F7B8EDE0029B217 /* IMObjectManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMObjectManager.swift; sourceTree = "<group>"; };
+		7EBAB5CE1F7B8EDE0029B217 /* IMRealmUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMRealmUtil.swift; sourceTree = "<group>"; };
+		7EBAB5CF1F7B8EDE0029B217 /* IMRxManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMRxManager.swift; sourceTree = "<group>"; };
+		7EBAB5D01F7B8EDE0029B217 /* IMSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMSessionManager.swift; sourceTree = "<group>"; };
+		7EBAB5D11F7B8EDE0029B217 /* IMTokenManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMTokenManager.swift; sourceTree = "<group>"; };
+		7EBAB5D21F7B8EDE0029B217 /* IMUpLoadFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMUpLoadFileManager.swift; sourceTree = "<group>"; };
+		7EBAB5D31F7B8EDE0029B217 /* IMXCGLoggerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMXCGLoggerManager.swift; sourceTree = "<group>"; };
+		7EBAB5D41F7B8EDE0029B217 /* IMXMPPManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMXMPPManager.swift; sourceTree = "<group>"; };
+		7EBAB5D51F7B8EDE0029B217 /* IMZipManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMZipManager.swift; sourceTree = "<group>"; };
+		7EBAB5D71F7B8EDE0029B217 /* IMAddGroupChatSelectModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMAddGroupChatSelectModel.swift; sourceTree = "<group>"; };
+		7EBAB5D81F7B8EDE0029B217 /* IMChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMChat.swift; sourceTree = "<group>"; };
+		7EBAB5D91F7B8EDE0029B217 /* IMChatImageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMChatImageModel.swift; sourceTree = "<group>"; };
+		7EBAB5DA1F7B8EDE0029B217 /* IMChatModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMChatModel.swift; sourceTree = "<group>"; };
+		7EBAB5DB1F7B8EDE0029B217 /* IMFriend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMFriend.swift; sourceTree = "<group>"; };
+		7EBAB5DC1F7B8EDE0029B217 /* IMFriend2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMFriend2.swift; sourceTree = "<group>"; };
+		7EBAB5DD1F7B8EDE0029B217 /* IMFriendDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMFriendDetail.swift; sourceTree = "<group>"; };
+		7EBAB5DE1F7B8EDE0029B217 /* IMFriendStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMFriendStatus.swift; sourceTree = "<group>"; };
+		7EBAB5DF1F7B8EDE0029B217 /* IMGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMGroup.swift; sourceTree = "<group>"; };
+		7EBAB5E01F7B8EDE0029B217 /* IMGroup2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMGroup2.swift; sourceTree = "<group>"; };
+		7EBAB5E11F7B8EDE0029B217 /* IMGroupList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMGroupList.swift; sourceTree = "<group>"; };
+		7EBAB5E21F7B8EDE0029B217 /* IMMessageList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMMessageList.swift; sourceTree = "<group>"; };
+		7EBAB5E31F7B8EDE0029B217 /* IMMessageList2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMMessageList2.swift; sourceTree = "<group>"; };
+		7EBAB5E41F7B8EDE0029B217 /* IMModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMModel.swift; sourceTree = "<group>"; };
+		7EBAB5E51F7B8EDE0029B217 /* IMOidModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMOidModel.swift; sourceTree = "<group>"; };
+		7EBAB5E61F7B8EDE0029B217 /* IMOrgnization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMOrgnization.swift; sourceTree = "<group>"; };
+		7EBAB5E71F7B8EDE0029B217 /* IMRoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMRoom.swift; sourceTree = "<group>"; };
+		7EBAB5E81F7B8EDE0029B217 /* IMRoomStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMRoomStatus.swift; sourceTree = "<group>"; };
+		7EBAB5E91F7B8EDE0029B217 /* IMUserProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMUserProfile.swift; sourceTree = "<group>"; };
+		7EBAB5EA1F7B8EDE0029B217 /* IMVersion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IMVersion.swift; sourceTree = "<group>"; };
+		7EBAB5ED1F7B8EDE0029B217 /* AESHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESHelper.h; sourceTree = "<group>"; };
+		7EBAB5EE1F7B8EDE0029B217 /* AESHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESHelper.m; sourceTree = "<group>"; };
+		7EBAB5EF1F7B8EDE0029B217 /* BMChineseSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMChineseSort.h; sourceTree = "<group>"; };
+		7EBAB5F01F7B8EDE0029B217 /* BMChineseSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMChineseSort.m; sourceTree = "<group>"; };
+		7EBAB5F11F7B8EDE0029B217 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		7EBAB5F21F7B8EDE0029B217 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		7EBAB5F31F7B8EDE0029B217 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		7EBAB6821F7B8EDF0029B217 /* KeychainConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainConfiguration.swift; sourceTree = "<group>"; };
+		7EBAB6831F7B8EDF0029B217 /* KeychainPasswordItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainPasswordItem.swift; sourceTree = "<group>"; };
+		7EBABA1E1F7B93AD0029B217 /* IMXMPPManager+addition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IMXMPPManager+addition.swift"; sourceTree = "<group>"; };
+		7ED0AC8E1F8C730900CE71D1 /* MainCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
+		7ED0AC921F8C969E00CE71D1 /* NSTextFilad+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSTextFilad+Extension.swift"; sourceTree = "<group>"; };
+		7ED0AC941F8CB10A00CE71D1 /* NSColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSColor+Extension.swift"; sourceTree = "<group>"; };
+		7ED0AEE81F8DF2FA00CE71D1 /* MainCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainCell.xib; sourceTree = "<group>"; };
+		7ED0AEEF1F8F5A6C00CE71D1 /* MianSplitVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MianSplitVC.swift; sourceTree = "<group>"; };
+		7ED0AEF01F8F5A6C00CE71D1 /* MianSplitVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MianSplitVC.xib; sourceTree = "<group>"; };
+		7ED0AEF31F8F5BE600CE71D1 /* LeftMenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftMenuVC.swift; sourceTree = "<group>"; };
+		7ED0AEF41F8F5BE600CE71D1 /* LeftMenuVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftMenuVC.xib; sourceTree = "<group>"; };
+		7ED0AEF71F8F600900CE71D1 /* CentreMsgListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CentreMsgListVC.swift; sourceTree = "<group>"; };
+		7ED0AEF81F8F600900CE71D1 /* CentreMsgListVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CentreMsgListVC.xib; sourceTree = "<group>"; };
+		7ED0AEFB1F8F604B00CE71D1 /* RightChatDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightChatDetailVC.swift; sourceTree = "<group>"; };
+		7ED0AEFC1F8F604B00CE71D1 /* RightChatDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RightChatDetailVC.xib; sourceTree = "<group>"; };
+		B9DA5BC659839E70C02D10EC /* Pods-WantTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WantTalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-WantTalk/Pods-WantTalk.release.xcconfig"; sourceTree = "<group>"; };
+		D91F8A366D7B8FF6F7A0F6B8 /* Pods_WantTalkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WantTalkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +326,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EAD12F91F9DB79800E30263 /* libchilkatCocoa.a in Frameworks */,
+				A459BB99A8E5BCAC887AC2E2 /* Pods_WantTalk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,13 +348,238 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48FB886CA0EAD1BF8D07D0DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E98CCADB3C3C1A69C7197FE /* Pods-WantTalk.debug.xcconfig */,
+				B9DA5BC659839E70C02D10EC /* Pods-WantTalk.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7A2D2D0A6EF83718A6758526 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15ED0662706DE4643A2CAF43 /* Pods_WantTalk.framework */,
+				D91F8A366D7B8FF6F7A0F6B8 /* Pods_WantTalkTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E0303751F9741B50077B103 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				7E0303761F9742280077B103 /* ChatDetailVC+interaction.swift */,
+				7E0303781F97447D0077B103 /* ChatDetailVC+handleData.swift */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
+		7E113F251F95AAFC00059C9C /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				7ED0AEFB1F8F604B00CE71D1 /* RightChatDetailVC.swift */,
+				7ED0AEFC1F8F604B00CE71D1 /* RightChatDetailVC.xib */,
+				7E113F211F94976900059C9C /* GroupChatDetailVC.swift */,
+				7E113F221F94976900059C9C /* GroupChatDetailVC.xib */,
+			);
+			name = Chat;
+			path = Main;
+			sourceTree = "<group>";
+		};
+		7E113F261F95AB5400059C9C /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				7E113F271F95AB7600059C9C /* ChatTextCell.swift */,
+				7E113F281F95AB7600059C9C /* ChatTextCell.xib */,
+				7E113F2B1F95C6CF00059C9C /* ChatImageCell.swift */,
+				7E113F2C1F95C6CF00059C9C /* ChatImageCell.xib */,
+				7E113F2F1F95C6E500059C9C /* ChatFileCell.swift */,
+				7E113F301F95C6E500059C9C /* ChatFileCell.xib */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		7E7EA0731F7CA7CB000D9328 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7E113F251F95AAFC00059C9C /* Chat */,
+				7E7EA07F1F7F74A1000D9328 /* Main */,
+				7E7EA0751F7CA7EF000D9328 /* User */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7E7EA0741F7CA7D7000D9328 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7E113F261F95AB5400059C9C /* Chat */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7E7EA0751F7CA7EF000D9328 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				7E7EA0761F7CA810000D9328 /* LoginVC.swift */,
+				7E7EA0771F7CA810000D9328 /* LoginVC.xib */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		7E7EA07F1F7F74A1000D9328 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7E7EA0801F7F7538000D9328 /* MianVC.swift */,
+				7E7EA0811F7F7538000D9328 /* MianVC.xib */,
+				7ED0AC8E1F8C730900CE71D1 /* MainCell.swift */,
+				7ED0AEE81F8DF2FA00CE71D1 /* MainCell.xib */,
+				7ED0AEEF1F8F5A6C00CE71D1 /* MianSplitVC.swift */,
+				7ED0AEF01F8F5A6C00CE71D1 /* MianSplitVC.xib */,
+				7ED0AEF31F8F5BE600CE71D1 /* LeftMenuVC.swift */,
+				7ED0AEF41F8F5BE600CE71D1 /* LeftMenuVC.xib */,
+				7ED0AEF71F8F600900CE71D1 /* CentreMsgListVC.swift */,
+				7ED0AEF81F8F600900CE71D1 /* CentreMsgListVC.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		7EAD128D1F9DB79700E30263 /* Chilkat */ = {
+			isa = PBXGroup;
+			children = (
+				7EAD128E1F9DB79700E30263 /* include */,
+				7EAD12F61F9DB79800E30263 /* lib */,
+			);
+			path = Chilkat;
+			sourceTree = "<group>";
+		};
+		7EAD128E1F9DB79700E30263 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				7EAD128F1F9DB79700E30263 /* CkoAccounts.h */,
+				7EAD12901F9DB79700E30263 /* CkoAsn.h */,
+				7EAD12911F9DB79700E30263 /* CkoAtom.h */,
+				7EAD12921F9DB79700E30263 /* CkoAuthAws.h */,
+				7EAD12931F9DB79700E30263 /* CkoAuthAzureAD.h */,
+				7EAD12941F9DB79700E30263 /* CkoAuthAzureSAS.h */,
+				7EAD12951F9DB79700E30263 /* CkoAuthAzureStorage.h */,
+				7EAD12961F9DB79700E30263 /* CkoAuthFacebook.h */,
+				7EAD12971F9DB79700E30263 /* CkoAuthGoogle.h */,
+				7EAD12981F9DB79700E30263 /* CkoAuthUtil.h */,
+				7EAD12991F9DB79700E30263 /* CkoBaseProgress.h */,
+				7EAD129A1F9DB79700E30263 /* CkoBinData.h */,
+				7EAD129B1F9DB79700E30263 /* CkoBounce.h */,
+				7EAD129C1F9DB79700E30263 /* CkoBz2.h */,
+				7EAD129D1F9DB79700E30263 /* CkoCache.h */,
+				7EAD129E1F9DB79700E30263 /* CkoCert.h */,
+				7EAD129F1F9DB79700E30263 /* CkoCertChain.h */,
+				7EAD12A01F9DB79700E30263 /* CkoCertStore.h */,
+				7EAD12A11F9DB79700E30263 /* CkoCgi.h */,
+				7EAD12A21F9DB79700E30263 /* CkoCharset.h */,
+				7EAD12A31F9DB79700E30263 /* CkoCompression.h */,
+				7EAD12A41F9DB79700E30263 /* CkoCrypt2.h */,
+				7EAD12A51F9DB79700E30263 /* CkoCsr.h */,
+				7EAD12A61F9DB79700E30263 /* CkoCsv.h */,
+				7EAD12A71F9DB79700E30263 /* CkoDateTime.h */,
+				7EAD12A81F9DB79700E30263 /* CkoDh.h */,
+				7EAD12A91F9DB79700E30263 /* CkoDirTree.h */,
+				7EAD12AA1F9DB79700E30263 /* CkoDkim.h */,
+				7EAD12AB1F9DB79700E30263 /* CkoDsa.h */,
+				7EAD12AC1F9DB79700E30263 /* CkoDtObj.h */,
+				7EAD12AD1F9DB79700E30263 /* CkoEcc.h */,
+				7EAD12AE1F9DB79700E30263 /* CkoEmail.h */,
+				7EAD12AF1F9DB79700E30263 /* CkoEmailBundle.h */,
+				7EAD12B01F9DB79700E30263 /* CkoFileAccess.h */,
+				7EAD12B11F9DB79700E30263 /* CkoFtp2.h */,
+				7EAD12B21F9DB79700E30263 /* CkoFtp2Progress.h */,
+				7EAD12B31F9DB79700E30263 /* CkoGlobal.h */,
+				7EAD12B41F9DB79700E30263 /* CkoGzip.h */,
+				7EAD12B51F9DB79700E30263 /* CkoHashtable.h */,
+				7EAD12B61F9DB79700E30263 /* CkoHtmlToText.h */,
+				7EAD12B71F9DB79700E30263 /* CkoHtmlToXml.h */,
+				7EAD12B81F9DB79700E30263 /* CkoHttp.h */,
+				7EAD12B91F9DB79700E30263 /* CkoHttpProgress.h */,
+				7EAD12BA1F9DB79700E30263 /* CkoHttpRequest.h */,
+				7EAD12BB1F9DB79700E30263 /* CkoHttpResponse.h */,
+				7EAD12BC1F9DB79700E30263 /* CkoImap.h */,
+				7EAD12BD1F9DB79700E30263 /* CkoJavaKeyStore.h */,
+				7EAD12BE1F9DB79700E30263 /* CkoJsonArray.h */,
+				7EAD12BF1F9DB79700E30263 /* CkoJsonObject.h */,
+				7EAD12C01F9DB79700E30263 /* CkoJwe.h */,
+				7EAD12C11F9DB79700E30263 /* CkoJws.h */,
+				7EAD12C21F9DB79700E30263 /* CkoJwt.h */,
+				7EAD12C31F9DB79700E30263 /* CkoLog.h */,
+				7EAD12C41F9DB79700E30263 /* CkoMailboxes.h */,
+				7EAD12C51F9DB79700E30263 /* CkoMailMan.h */,
+				7EAD12C61F9DB79700E30263 /* CkoMailManProgress.h */,
+				7EAD12C71F9DB79700E30263 /* CkoMessageSet.h */,
+				7EAD12C81F9DB79700E30263 /* CkoMht.h */,
+				7EAD12C91F9DB79700E30263 /* CkoMime.h */,
+				7EAD12CA1F9DB79700E30263 /* CkoNtlm.h */,
+				7EAD12CB1F9DB79700E30263 /* CkoOAuth1.h */,
+				7EAD12CC1F9DB79700E30263 /* CkoOAuth2.h */,
+				7EAD12CD1F9DB79700E30263 /* CkoPem.h */,
+				7EAD12CE1F9DB79700E30263 /* CkoPfx.h */,
+				7EAD12CF1F9DB79700E30263 /* CkoPrivateKey.h */,
+				7EAD12D01F9DB79700E30263 /* CkoPrng.h */,
+				7EAD12D11F9DB79700E30263 /* CkoProgress.h */,
+				7EAD12D21F9DB79700E30263 /* CkoPublicKey.h */,
+				7EAD12D31F9DB79700E30263 /* CkoRest.h */,
+				7EAD12D41F9DB79700E30263 /* CkoRsa.h */,
+				7EAD12D51F9DB79700E30263 /* CkoRss.h */,
+				7EAD12D61F9DB79700E30263 /* CkoScp.h */,
+				7EAD12D71F9DB79700E30263 /* CkoServerSentEvent.h */,
+				7EAD12D81F9DB79700E30263 /* CkoSFtp.h */,
+				7EAD12D91F9DB79700E30263 /* CkoSFtpDir.h */,
+				7EAD12DA1F9DB79700E30263 /* CkoSFtpFile.h */,
+				7EAD12DB1F9DB79700E30263 /* CkoSFtpProgress.h */,
+				7EAD12DC1F9DB79700E30263 /* CkoSocket.h */,
+				7EAD12DD1F9DB79700E30263 /* CkoSpider.h */,
+				7EAD12DE1F9DB79700E30263 /* CkoSsh.h */,
+				7EAD12DF1F9DB79700E30263 /* CkoSshKey.h */,
+				7EAD12E01F9DB79700E30263 /* CkoSshTunnel.h */,
+				7EAD12E11F9DB79700E30263 /* CkoStream.h */,
+				7EAD12E21F9DB79700E30263 /* CkoStringArray.h */,
+				7EAD12E31F9DB79700E30263 /* CkoStringBuilder.h */,
+				7EAD12E41F9DB79700E30263 /* CkoStringTable.h */,
+				7EAD12E51F9DB79700E30263 /* CkoTar.h */,
+				7EAD12E61F9DB79700E30263 /* CkoTarProgress.h */,
+				7EAD12E71F9DB79700E30263 /* CkoTask.h */,
+				7EAD12E81F9DB79700E30263 /* CkoTaskChain.h */,
+				7EAD12E91F9DB79700E30263 /* CkoTrustedRoots.h */,
+				7EAD12EA1F9DB79800E30263 /* CkoUnixCompress.h */,
+				7EAD12EB1F9DB79800E30263 /* CkoUpload.h */,
+				7EAD12EC1F9DB79800E30263 /* CkoUrl.h */,
+				7EAD12ED1F9DB79800E30263 /* CkoXml.h */,
+				7EAD12EE1F9DB79800E30263 /* CkoXmlCertVault.h */,
+				7EAD12EF1F9DB79800E30263 /* CkoXmlDSig.h */,
+				7EAD12F01F9DB79800E30263 /* CkoXmlDSigGen.h */,
+				7EAD12F11F9DB79800E30263 /* CkoXmp.h */,
+				7EAD12F21F9DB79800E30263 /* CkoZip.h */,
+				7EAD12F31F9DB79800E30263 /* CkoZipCrc.h */,
+				7EAD12F41F9DB79800E30263 /* CkoZipEntry.h */,
+				7EAD12F51F9DB79800E30263 /* CkoZipProgress.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		7EAD12F61F9DB79800E30263 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				7EAD12F71F9DB79800E30263 /* libchilkatCocoa.a */,
+				7EAD12F81F9DB79800E30263 /* libchilkatCocoaDyn.dylib */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
 		7EBAB5511F7B4B170029B217 = {
 			isa = PBXGroup;
 			children = (
 				7EBAB55C1F7B4B170029B217 /* WantTalk */,
 				7EBAB56E1F7B4B170029B217 /* WantTalkTests */,
-				7EBAB5791F7B4B170029B217 /* WantTalkUITests */,
 				7EBAB55B1F7B4B170029B217 /* Products */,
+				48FB886CA0EAD1BF8D07D0DE /* Pods */,
+				7A2D2D0A6EF83718A6758526 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,11 +596,13 @@
 		7EBAB55C1F7B4B170029B217 /* WantTalk */ = {
 			isa = PBXGroup;
 			children = (
-				7EBAB55D1F7B4B170029B217 /* AppDelegate.swift */,
-				7EBAB55F1F7B4B170029B217 /* ViewController.swift */,
-				7EBAB5611F7B4B170029B217 /* Assets.xcassets */,
-				7EBAB5631F7B4B170029B217 /* Main.storyboard */,
-				7EBAB5661F7B4B170029B217 /* Info.plist */,
+				7EBAB5EB1F7B8EDE0029B217 /* Vendor */,
+				7EBAB5941F7B8EDE0029B217 /* Common */,
+				7EBAB5C91F7B8EDE0029B217 /* DataSource */,
+				7EBAB5D61F7B8EDE0029B217 /* Model */,
+				7EBAB58F1F7B778F0029B217 /* Res */,
+				7E7EA0741F7CA7D7000D9328 /* View */,
+				7E7EA0731F7CA7CB000D9328 /* Controller */,
 			);
 			path = WantTalk;
 			sourceTree = "<group>";
@@ -113,13 +616,132 @@
 			path = WantTalkTests;
 			sourceTree = "<group>";
 		};
-		7EBAB5791F7B4B170029B217 /* WantTalkUITests */ = {
+		7EBAB58F1F7B778F0029B217 /* Res */ = {
 			isa = PBXGroup;
 			children = (
-				7EBAB57A1F7B4B170029B217 /* WantTalkUITests.swift */,
-				7EBAB57C1F7B4B170029B217 /* Info.plist */,
+				7EBAB55D1F7B4B170029B217 /* AppDelegate.swift */,
+				7EBAB5901F7B778F0029B217 /* WantTalk-Bridging-Header.h */,
+				7EBAB5611F7B4B170029B217 /* Assets.xcassets */,
+				7E7EA07B1F7DE903000D9328 /* Main.storyboard */,
+				7EBAB5661F7B4B170029B217 /* Info.plist */,
 			);
-			path = WantTalkUITests;
+			path = Res;
+			sourceTree = "<group>";
+		};
+		7EBAB5941F7B8EDE0029B217 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7E7E9FF61F7C8B86000D9328 /* NSImage+Extension.swift */,
+				7ED0AC921F8C969E00CE71D1 /* NSTextFilad+Extension.swift */,
+				7E7E9FF31F7BAF3F000D9328 /* Constants.swift */,
+				7EBAB5961F7B8EDE0029B217 /* CGRect+Extension.swift */,
+				7EBAB5971F7B8EDE0029B217 /* DDXMLElement+Extension.swift */,
+				7EBAB5AE1F7B8EDE0029B217 /* IMConfig.swift */,
+				7EBAB5AF1F7B8EDE0029B217 /* IMEmojiDictionary.swift */,
+				7EBABA1E1F7B93AD0029B217 /* IMXMPPManager+addition.swift */,
+				7EBAB5B21F7B8EDE0029B217 /* NSObject+addition.swift */,
+				7EBAB5B41F7B8EDE0029B217 /* String+addition.swift */,
+				7EBAB5B51F7B8EDE0029B217 /* SwiftTimer.swift */,
+				7E7E9FE61F7BABB3000D9328 /* NSObject+TSExtension.swift */,
+				7ED0AC941F8CB10A00CE71D1 /* NSColor+Extension.swift */,
+				7E03037A1F9854BD0077B103 /* NSTableView+addition.swift */,
+				7EBAB5981F7B8EDE0029B217 /* ImagesInfo */,
+				7E0303751F9741B50077B103 /* Chat */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		7EBAB5981F7B8EDE0029B217 /* ImagesInfo */ = {
+			isa = PBXGroup;
+			children = (
+				7EBAB5991F7B8EDE0029B217 /* ChatConfig.swift */,
+				7EBAB59A1F7B8EDE0029B217 /* ImageFilesManager.swift */,
+				7EBAB59D1F7B8EDE0029B217 /* String+TSCrypto.swift */,
+				7E03037C1F998B2E0077B103 /* UIImage+TSOrientation.swift */,
+				7E03037E1F99A1ED0077B103 /* IMImageCompress.swift */,
+			);
+			path = ImagesInfo;
+			sourceTree = "<group>";
+		};
+		7EBAB5C91F7B8EDE0029B217 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				7EBAB5CA1F7B8EDE0029B217 /* IMFriendsManager.swift */,
+				7EBAB5CB1F7B8EDE0029B217 /* IMGlobaHelper.swift */,
+				7EBAB5CC1F7B8EDE0029B217 /* IMMessageManager.swift */,
+				7EBAB5CD1F7B8EDE0029B217 /* IMObjectManager.swift */,
+				7EBAB5CE1F7B8EDE0029B217 /* IMRealmUtil.swift */,
+				7EBAB5CF1F7B8EDE0029B217 /* IMRxManager.swift */,
+				7EBAB5D01F7B8EDE0029B217 /* IMSessionManager.swift */,
+				7EBAB5D11F7B8EDE0029B217 /* IMTokenManager.swift */,
+				7EBAB5D21F7B8EDE0029B217 /* IMUpLoadFileManager.swift */,
+				7EBAB5D31F7B8EDE0029B217 /* IMXCGLoggerManager.swift */,
+				7EBAB5D41F7B8EDE0029B217 /* IMXMPPManager.swift */,
+				7EBAB5D51F7B8EDE0029B217 /* IMZipManager.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		7EBAB5D61F7B8EDE0029B217 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7EBAB5D71F7B8EDE0029B217 /* IMAddGroupChatSelectModel.swift */,
+				7EBAB5D81F7B8EDE0029B217 /* IMChat.swift */,
+				7EBAB5D91F7B8EDE0029B217 /* IMChatImageModel.swift */,
+				7EBAB5DA1F7B8EDE0029B217 /* IMChatModel.swift */,
+				7EBAB5DB1F7B8EDE0029B217 /* IMFriend.swift */,
+				7EBAB5DC1F7B8EDE0029B217 /* IMFriend2.swift */,
+				7EBAB5DD1F7B8EDE0029B217 /* IMFriendDetail.swift */,
+				7EBAB5DE1F7B8EDE0029B217 /* IMFriendStatus.swift */,
+				7EBAB5DF1F7B8EDE0029B217 /* IMGroup.swift */,
+				7EBAB5E01F7B8EDE0029B217 /* IMGroup2.swift */,
+				7EBAB5E11F7B8EDE0029B217 /* IMGroupList.swift */,
+				7EBAB5E21F7B8EDE0029B217 /* IMMessageList.swift */,
+				7EBAB5E31F7B8EDE0029B217 /* IMMessageList2.swift */,
+				7EBAB5E41F7B8EDE0029B217 /* IMModel.swift */,
+				7EBAB5E51F7B8EDE0029B217 /* IMOidModel.swift */,
+				7EBAB5E61F7B8EDE0029B217 /* IMOrgnization.swift */,
+				7EBAB5E71F7B8EDE0029B217 /* IMRoom.swift */,
+				7EBAB5E81F7B8EDE0029B217 /* IMRoomStatus.swift */,
+				7EBAB5E91F7B8EDE0029B217 /* IMUserProfile.swift */,
+				7EBAB5EA1F7B8EDE0029B217 /* IMVersion.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7EBAB5EB1F7B8EDE0029B217 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				7EAD128D1F9DB79700E30263 /* Chilkat */,
+				7E7E9FF81F7C8E65000D9328 /* macUUID.h */,
+				7E7E9FF91F7C8E65000D9328 /* macUUID.m */,
+				7EBAB5EC1F7B8EDE0029B217 /* BMChineseSort */,
+				7EBAB6811F7B8EDF0029B217 /* IMKeyChain */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		7EBAB5EC1F7B8EDE0029B217 /* BMChineseSort */ = {
+			isa = PBXGroup;
+			children = (
+				7EBAB5ED1F7B8EDE0029B217 /* AESHelper.h */,
+				7EBAB5EE1F7B8EDE0029B217 /* AESHelper.m */,
+				7EBAB5EF1F7B8EDE0029B217 /* BMChineseSort.h */,
+				7EBAB5F01F7B8EDE0029B217 /* BMChineseSort.m */,
+				7EBAB5F11F7B8EDE0029B217 /* GTMBase64.h */,
+				7EBAB5F21F7B8EDE0029B217 /* GTMBase64.m */,
+				7EBAB5F31F7B8EDE0029B217 /* GTMDefines.h */,
+			);
+			path = BMChineseSort;
+			sourceTree = "<group>";
+		};
+		7EBAB6811F7B8EDF0029B217 /* IMKeyChain */ = {
+			isa = PBXGroup;
+			children = (
+				7EBAB6821F7B8EDF0029B217 /* KeychainConfiguration.swift */,
+				7EBAB6831F7B8EDF0029B217 /* KeychainPasswordItem.swift */,
+			);
+			path = IMKeyChain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,9 +751,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7EBAB57F1F7B4B170029B217 /* Build configuration list for PBXNativeTarget "WantTalk" */;
 			buildPhases = (
+				E18DF24B0673D96DB5772D2A /* [CP] Check Pods Manifest.lock */,
 				7EBAB5561F7B4B170029B217 /* Sources */,
 				7EBAB5571F7B4B170029B217 /* Frameworks */,
 				7EBAB5581F7B4B170029B217 /* Resources */,
+				F2B207E66A6F857A3E115002 /* [CP] Embed Pods Frameworks */,
+				3C84B07EF003B681E036FEA8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,8 +854,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E7EA07C1F7DE903000D9328 /* Main.storyboard in Resources */,
+				7ED0AEFA1F8F600900CE71D1 /* CentreMsgListVC.xib in Resources */,
+				7ED0AEFE1F8F604B00CE71D1 /* RightChatDetailVC.xib in Resources */,
+				7E7EA0831F7F7538000D9328 /* MianVC.xib in Resources */,
+				7ED0AEF21F8F5A6C00CE71D1 /* MianSplitVC.xib in Resources */,
+				7E113F321F95C6E500059C9C /* ChatFileCell.xib in Resources */,
+				7E113F2E1F95C6CF00059C9C /* ChatImageCell.xib in Resources */,
+				7ED0AEF61F8F5BE600CE71D1 /* LeftMenuVC.xib in Resources */,
+				7E7EA0791F7CA810000D9328 /* LoginVC.xib in Resources */,
 				7EBAB5621F7B4B170029B217 /* Assets.xcassets in Resources */,
-				7EBAB5651F7B4B170029B217 /* Main.storyboard in Resources */,
+				7ED0AEE91F8DF2FA00CE71D1 /* MainCell.xib in Resources */,
+				7E113F2A1F95AB7600059C9C /* ChatTextCell.xib in Resources */,
+				7E113F241F94976900059C9C /* GroupChatDetailVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,13 +886,174 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3C84B07EF003B681E036FEA8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WantTalk/Pods-WantTalk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E18DF24B0673D96DB5772D2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WantTalk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2B207E66A6F857A3E115002 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WantTalk/Pods-WantTalk-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts-Swift/BoltsSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Cent/Cent.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
+				"${BUILT_PRODUCTS_DIR}/Dollar/Dollar.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/KissXML/KissXML.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjcExceptionBridging/ObjcExceptionBridging.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/ReachabilitySwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/XCGLogger/XCGLogger.framework",
+				"${BUILT_PRODUCTS_DIR}/XMPPFramework/XMPPFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/Zip/Zip.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BoltsSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cent.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Dollar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KissXML.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjcExceptionBridging.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReachabilitySwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCGLogger.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XMPPFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Zip.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WantTalk/Pods-WantTalk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7EBAB5561F7B4B170029B217 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EBAB5601F7B4B170029B217 /* ViewController.swift in Sources */,
+				7EBAB88F1F7B8EE00029B217 /* String+TSCrypto.swift in Sources */,
+				7EBAB8C51F7B8EE00029B217 /* IMXMPPManager.swift in Sources */,
+				7E0303771F9742280077B103 /* ChatDetailVC+interaction.swift in Sources */,
+				7EBAB8CB1F7B8EE00029B217 /* IMFriend.swift in Sources */,
+				7EBAB8C91F7B8EE00029B217 /* IMChatImageModel.swift in Sources */,
+				7E03037D1F998B2E0077B103 /* UIImage+TSOrientation.swift in Sources */,
+				7EBAB8D21F7B8EE00029B217 /* IMMessageList.swift in Sources */,
+				7EBAB8891F7B8EE00029B217 /* CGRect+Extension.swift in Sources */,
 				7EBAB55E1F7B4B170029B217 /* AppDelegate.swift in Sources */,
+				7E113F311F95C6E500059C9C /* ChatFileCell.swift in Sources */,
+				7E7E9FFA1F7C8E65000D9328 /* macUUID.m in Sources */,
+				7EBAB8BF1F7B8EE00029B217 /* IMRealmUtil.swift in Sources */,
+				7EBAB8C01F7B8EE00029B217 /* IMRxManager.swift in Sources */,
+				7EBAB8CE1F7B8EE00029B217 /* IMFriendStatus.swift in Sources */,
+				7EBAB8BD1F7B8EE00029B217 /* IMMessageManager.swift in Sources */,
+				7E7EA0821F7F7538000D9328 /* MianVC.swift in Sources */,
+				7EBAB8D61F7B8EE00029B217 /* IMOrgnization.swift in Sources */,
+				7EBAB8C71F7B8EE00029B217 /* IMAddGroupChatSelectModel.swift in Sources */,
+				7EBAB8D81F7B8EE00029B217 /* IMRoomStatus.swift in Sources */,
+				7EBAB8EC1F7B8EE00029B217 /* KeychainPasswordItem.swift in Sources */,
+				7EBAB8A71F7B8EE00029B217 /* SwiftTimer.swift in Sources */,
+				7E113F291F95AB7600059C9C /* ChatTextCell.swift in Sources */,
+				7EBAB8DA1F7B8EE00029B217 /* IMVersion.swift in Sources */,
+				7E113F231F94976900059C9C /* GroupChatDetailVC.swift in Sources */,
+				7EBABA1F1F7B93AD0029B217 /* IMXMPPManager+addition.swift in Sources */,
+				7EBAB8D51F7B8EE00029B217 /* IMOidModel.swift in Sources */,
+				7E0303791F97447D0077B103 /* ChatDetailVC+handleData.swift in Sources */,
+				7EBAB8BE1F7B8EE00029B217 /* IMObjectManager.swift in Sources */,
+				7ED0AC901F8C730900CE71D1 /* MainCell.swift in Sources */,
+				7EBAB8DD1F7B8EE00029B217 /* GTMBase64.m in Sources */,
+				7EBAB8C21F7B8EE00029B217 /* IMTokenManager.swift in Sources */,
+				7EBAB8C11F7B8EE00029B217 /* IMSessionManager.swift in Sources */,
+				7EBAB88B1F7B8EE00029B217 /* ChatConfig.swift in Sources */,
+				7EBAB8BB1F7B8EE00029B217 /* IMFriendsManager.swift in Sources */,
+				7ED0AEFD1F8F604B00CE71D1 /* RightChatDetailVC.swift in Sources */,
+				7ED0AC931F8C969E00CE71D1 /* NSTextFilad+Extension.swift in Sources */,
+				7E113F2D1F95C6CF00059C9C /* ChatImageCell.swift in Sources */,
+				7EBAB88A1F7B8EE00029B217 /* DDXMLElement+Extension.swift in Sources */,
+				7EBAB8A61F7B8EE00029B217 /* String+addition.swift in Sources */,
+				7EBAB8C61F7B8EE00029B217 /* IMZipManager.swift in Sources */,
+				7EBAB8A01F7B8EE00029B217 /* IMConfig.swift in Sources */,
+				7EBAB8C81F7B8EE00029B217 /* IMChat.swift in Sources */,
+				7EBAB8BC1F7B8EE00029B217 /* IMGlobaHelper.swift in Sources */,
+				7E7E9FF41F7BAF3F000D9328 /* Constants.swift in Sources */,
+				7EBAB8DB1F7B8EE00029B217 /* AESHelper.m in Sources */,
+				7EBAB8EB1F7B8EE00029B217 /* KeychainConfiguration.swift in Sources */,
+				7E03037B1F9854BD0077B103 /* NSTableView+addition.swift in Sources */,
+				7EBAB8A11F7B8EE00029B217 /* IMEmojiDictionary.swift in Sources */,
+				7EBAB8CC1F7B8EE00029B217 /* IMFriend2.swift in Sources */,
+				7EBAB8CD1F7B8EE00029B217 /* IMFriendDetail.swift in Sources */,
+				7ED0AEF91F8F600900CE71D1 /* CentreMsgListVC.swift in Sources */,
+				7E03037F1F99A1ED0077B103 /* IMImageCompress.swift in Sources */,
+				7EBAB8D91F7B8EE00029B217 /* IMUserProfile.swift in Sources */,
+				7EBAB8A41F7B8EE00029B217 /* NSObject+addition.swift in Sources */,
+				7E7E9FE71F7BABB3000D9328 /* NSObject+TSExtension.swift in Sources */,
+				7EBAB8D71F7B8EE00029B217 /* IMRoom.swift in Sources */,
+				7EBAB8C41F7B8EE00029B217 /* IMXCGLoggerManager.swift in Sources */,
+				7E7EA0781F7CA810000D9328 /* LoginVC.swift in Sources */,
+				7EBAB88C1F7B8EE00029B217 /* ImageFilesManager.swift in Sources */,
+				7ED0AC951F8CB10A00CE71D1 /* NSColor+Extension.swift in Sources */,
+				7EBAB8D01F7B8EE00029B217 /* IMGroup2.swift in Sources */,
+				7EBAB8C31F7B8EE00029B217 /* IMUpLoadFileManager.swift in Sources */,
+				7EBAB8CF1F7B8EE00029B217 /* IMGroup.swift in Sources */,
+				7EBAB8D41F7B8EE00029B217 /* IMModel.swift in Sources */,
+				7ED0AEF11F8F5A6C00CE71D1 /* MianSplitVC.swift in Sources */,
+				7E7E9FF71F7C8B86000D9328 /* NSImage+Extension.swift in Sources */,
+				7EBAB8D31F7B8EE00029B217 /* IMMessageList2.swift in Sources */,
+				7ED0AEF51F8F5BE600CE71D1 /* LeftMenuVC.swift in Sources */,
+				7EBAB8D11F7B8EE00029B217 /* IMGroupList.swift in Sources */,
+				7EBAB8CA1F7B8EE00029B217 /* IMChatModel.swift in Sources */,
+				7EBAB8DC1F7B8EE00029B217 /* BMChineseSort.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +1069,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EBAB57B1F7B4B170029B217 /* WantTalkUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,17 +1086,6 @@
 			targetProxy = 7EBAB5771F7B4B170029B217 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		7EBAB5631F7B4B170029B217 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7EBAB5641F7B4B170029B217 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7EBAB57D1F7B4B170029B217 /* Debug */ = {
@@ -397,26 +1182,152 @@
 		};
 		7EBAB5801F7B4B170029B217 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E98CCADB3C3C1A69C7197FE /* Pods-WantTalk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = WantTalk/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WantTalk/Vendor/Chilkat/lib",
+					"$(PROJECT_DIR)/WantTalk/Vendor/Cobub",
+					"$(PROJECT_DIR)/WantTalk/Vendor/FileBrowser/JhtDocSDK",
+					"$(PROJECT_DIR)/WantTalk/Vendor/XMPPFramework/Vendor/libidn",
+					"$(PROJECT_DIR)/WantTalk/Vendor/lib",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"BoltsSwift\"",
+					"-framework",
+					"\"Cent\"",
+					"-framework",
+					"\"CocoaAsyncSocket\"",
+					"-framework",
+					"\"CocoaLumberjack\"",
+					"-framework",
+					"\"Dollar\"",
+					"-framework",
+					"\"Kingfisher\"",
+					"-framework",
+					"\"KissXML\"",
+					"-framework",
+					"\"ObjcExceptionBridging\"",
+					"-framework",
+					"\"ReachabilitySwift\"",
+					"-framework",
+					"\"Realm\"",
+					"-framework",
+					"\"RealmSwift\"",
+					"-framework",
+					"\"RxBlocking\"",
+					"-framework",
+					"\"RxCocoa\"",
+					"-framework",
+					"\"RxSwift\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SnapKit\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"XCGLogger\"",
+					"-framework",
+					"\"XMPPFramework\"",
+					"-framework",
+					"\"Zip\"",
+					"-lstdc++",
+					"-lpthread",
+					"-lresolv",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.want.mis.im.WantTalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_NAME}/Res/WantTalk-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		7EBAB5811F7B4B170029B217 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9DA5BC659839E70C02D10EC /* Pods-WantTalk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = WantTalk/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WantTalk/Vendor/Chilkat/lib",
+					"$(PROJECT_DIR)/WantTalk/Vendor/Cobub",
+					"$(PROJECT_DIR)/WantTalk/Vendor/FileBrowser/JhtDocSDK",
+					"$(PROJECT_DIR)/WantTalk/Vendor/XMPPFramework/Vendor/libidn",
+					"$(PROJECT_DIR)/WantTalk/Vendor/lib",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"BoltsSwift\"",
+					"-framework",
+					"\"Cent\"",
+					"-framework",
+					"\"CocoaAsyncSocket\"",
+					"-framework",
+					"\"CocoaLumberjack\"",
+					"-framework",
+					"\"Dollar\"",
+					"-framework",
+					"\"Kingfisher\"",
+					"-framework",
+					"\"KissXML\"",
+					"-framework",
+					"\"ObjcExceptionBridging\"",
+					"-framework",
+					"\"ReachabilitySwift\"",
+					"-framework",
+					"\"Realm\"",
+					"-framework",
+					"\"RealmSwift\"",
+					"-framework",
+					"\"RxBlocking\"",
+					"-framework",
+					"\"RxCocoa\"",
+					"-framework",
+					"\"RxSwift\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SnapKit\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"XCGLogger\"",
+					"-framework",
+					"\"XMPPFramework\"",
+					"-framework",
+					"\"Zip\"",
+					"-lstdc++",
+					"-lpthread",
+					"-lresolv",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.want.mis.im.WantTalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_NAME}/Res/WantTalk-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -498,6 +1409,7 @@
 				7EBAB5811F7B4B170029B217 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7EBAB5821F7B4B170029B217 /* Build configuration list for PBXNativeTarget "WantTalkTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +1418,7 @@
 				7EBAB5841F7B4B170029B217 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7EBAB5851F7B4B170029B217 /* Build configuration list for PBXNativeTarget "WantTalkUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +1427,7 @@
 				7EBAB5871F7B4B170029B217 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

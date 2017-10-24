@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="12121" systemVersion="16B2657" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="12121"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+        <capability name="stacking Non-gravity area distributions on NSStackView" minToolsVersion="7.0" minSystemVersion="10.11"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="LeftMenuVC" customModule="WantTalk" customModuleProvider="target">
+            <connections>
+                <outlet property="headBtn" destination="IR1-kl-yzW" id="a9C-hQ-hYf"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="70" height="550"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="cv2-A7-gLm">
+                    <rect key="frame" x="0.0" y="0.0" width="70" height="550"/>
+                    <subviews>
+                        <button focusRingType="none" tag="1" translatesAutoresizingMaskIntoConstraints="NO" id="IR1-kl-yzW">
+                            <rect key="frame" x="11" y="434" width="48" height="48"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="48" id="KiS-LC-FAH"/>
+                                <constraint firstAttribute="height" constant="48" id="Ys5-31-lKQ"/>
+                            </constraints>
+                            <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="wz" imagePosition="only" alignment="center" focusRingType="none" imageScaling="proportionallyUpOrDown" inset="2" id="kRx-GV-naB">
+                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                <font key="font" metaFont="system"/>
+                            </buttonCell>
+                            <connections>
+                                <action selector="OnClickMenuBtns:" target="-2" id="7JL-M0-YjO"/>
+                            </connections>
+                        </button>
+                        <stackView distribution="fill" orientation="vertical" alignment="leading" spacing="16" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cMI-SQ-JGA">
+                            <rect key="frame" x="20" y="266" width="30" height="122"/>
+                            <subviews>
+                                <button tag="2" translatesAutoresizingMaskIntoConstraints="NO" id="k5Q-NL-QGh">
+                                    <rect key="frame" x="0.0" y="92" width="30" height="30"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="30" id="qT4-1t-XTM"/>
+                                        <constraint firstAttribute="height" constant="30" id="z37-hh-VF7"/>
+                                    </constraints>
+                                    <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="chat" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="NgC-cM-bew">
+                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                    </buttonCell>
+                                    <connections>
+                                        <action selector="OnClickMenuBtns:" target="-2" id="VW4-Je-4a8"/>
+                                    </connections>
+                                </button>
+                                <button tag="3" translatesAutoresizingMaskIntoConstraints="NO" id="Tvr-jM-pB6">
+                                    <rect key="frame" x="0.0" y="46" width="30" height="30"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="30" id="Fbe-Mp-0RW"/>
+                                        <constraint firstAttribute="width" constant="30" id="mtF-oa-K3b"/>
+                                    </constraints>
+                                    <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="contact" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="vLo-6e-GR2">
+                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                    </buttonCell>
+                                    <connections>
+                                        <action selector="OnClickMenuBtns:" target="-2" id="sRe-Qp-YKk"/>
+                                    </connections>
+                                </button>
+                                <button tag="4" translatesAutoresizingMaskIntoConstraints="NO" id="PYO-il-eYJ">
+                                    <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="30" id="Zb1-rC-bRu"/>
+                                        <constraint firstAttribute="height" constant="30" id="nZP-rC-55H"/>
+                                    </constraints>
+                                    <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="favorite" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="Eiy-XQ-lQQ">
+                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                    </buttonCell>
+                                    <connections>
+                                        <action selector="OnClickMenuBtns:" target="-2" id="Jg8-vc-aas"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <visibilityPriorities>
+                                <integer value="1000"/>
+                                <integer value="1000"/>
+                                <integer value="1000"/>
+                            </visibilityPriorities>
+                            <customSpacing>
+                                <real value="3.4028234663852886e+38"/>
+                                <real value="3.4028234663852886e+38"/>
+                                <real value="3.4028234663852886e+38"/>
+                            </customSpacing>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="cMI-SQ-JGA" firstAttribute="centerX" secondItem="IR1-kl-yzW" secondAttribute="centerX" id="41O-n9-HsA"/>
+                        <constraint firstItem="cMI-SQ-JGA" firstAttribute="top" secondItem="IR1-kl-yzW" secondAttribute="bottom" constant="46" id="CNb-gd-gev"/>
+                        <constraint firstItem="IR1-kl-yzW" firstAttribute="top" secondItem="cv2-A7-gLm" secondAttribute="top" constant="68" id="KiJ-gf-0kb"/>
+                        <constraint firstAttribute="width" constant="70" id="QwM-hv-bks"/>
+                        <constraint firstItem="cMI-SQ-JGA" firstAttribute="leading" secondItem="cv2-A7-gLm" secondAttribute="leading" constant="20" symbolic="YES" id="eNX-XD-bz2"/>
+                    </constraints>
+                </customView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="cv2-A7-gLm" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" id="5wN-d9-ZVe"/>
+                <constraint firstItem="cv2-A7-gLm" firstAttribute="width" secondItem="Hz6-mo-xeY" secondAttribute="width" id="Bkb-tN-ytd"/>
+                <constraint firstItem="cv2-A7-gLm" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" id="LHV-fi-kcf"/>
+                <constraint firstAttribute="bottom" secondItem="cv2-A7-gLm" secondAttribute="bottom" id="SnY-eb-cZU"/>
+                <constraint firstAttribute="trailing" secondItem="cv2-A7-gLm" secondAttribute="trailing" id="axz-4E-5Fa"/>
+            </constraints>
+            <point key="canvasLocation" x="-53" y="554"/>
+        </customView>
+    </objects>
+    <resources>
+        <image name="chat" width="30" height="29"/>
+        <image name="contact" width="30" height="29"/>
+        <image name="favorite" width="30" height="30"/>
+        <image name="wz" width="40" height="40"/>
+    </resources>
+</document>

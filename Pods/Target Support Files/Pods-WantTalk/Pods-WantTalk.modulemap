@@ -1,0 +1,6 @@
+framework module Pods_WantTalk {
+  umbrella header "Pods-WantTalk-umbrella.h"
+
+  export *
+  module * { export * }
+}
